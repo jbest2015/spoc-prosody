@@ -1,0 +1,7 @@
+sounddevice
+librosa
+numpy
+scipy
+lxml
+openai-whisper
+soundfile 
