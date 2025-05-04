@@ -9,6 +9,11 @@
 
 ---
 
+## Project Purpose
+This project was developed to explore whether it is possible to capture tone, emotion, and intent from voice input and allow AI systems to interpret prosody. The goal is to bridge the gap between raw speech and AI understanding of how something is said—not just what is said—by providing rich, structured annotations for LLMs and other AI models.
+
+---
+
 ## Who is this for?
 - **AI/LLM prompt engineers** who want to add tone/context to prompts
 - **Speech researchers** interested in prosody and emotion
