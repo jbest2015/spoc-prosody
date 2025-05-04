@@ -117,4 +117,8 @@ The speaker sounds direct, focused, and possibly a bit impatient. The loudness a
 
 ---
 
-**Specs:** See the S.P.O.C. System Specification v1.0 
+**Specs:** See the S.P.O.C. System Specification v1.0
+
+---
+
+*This repository was entirely vibe coded with [Cursor](https://www.cursor.so) (AI assistant).* 
