@@ -1,5 +1,37 @@
 # S.P.O.C. System Prototype
 
+> Real-time speech prosody annotation, transcription, and AI-ready markup for LLMs.
+
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[GitHub Repo](https://github.com/jbest2015/spoc-prosody)
+
+**Keywords:** prosody, speech-to-text, LLM, AI, annotation, emotion-detection, python, whisper, audio-analysis, openai, tone-analysis
+
+---
+
+## Who is this for?
+- **AI/LLM prompt engineers** who want to add tone/context to prompts
+- **Speech researchers** interested in prosody and emotion
+- **Developers** building voice interfaces or chatbots
+- **Anyone** interested in emotion/tone detection from speech
+
+---
+
+## Architecture
+```
+[Mic Input]
+    ↓
+[Feature Extraction (Pitch, Volume, Timing)]
+    ↓
+[Transcription (Whisper)]
+    ↓
+[S.P.O.C. Annotation Output (XML, Compressed)]
+    ↓
+[AI/LLM Prompt or Export]
+```
+
+---
+
 ## Overview
 S.P.O.C. (Speech Prosody & Output Coding) is a system for real-time speech input, prosodic feature extraction (pitch, volume, timing), automatic transcription, and annotated output in XML and compressed markup. It is designed for AI-aware communication and tone analysis.
 
@@ -105,6 +137,19 @@ Time Between: m — moderate pause, possibly thoughtful or calculated.
 Interpretation:
 The speaker sounds direct, focused, and possibly a bit impatient. The loudness and firmness suggest they expect a clear and immediate answer. It feels like a check-in, but not a casual one—more like someone keeping tabs or needing something urgently.
 ```
+
+## How to Contribute
+- Open an issue for bugs, feature requests, or questions
+- Pull requests are welcome! Please describe your changes clearly
+- See the code comments and this README for guidance
+
+## Roadmap
+- [ ] Word-level alignment using Whisper timestamps or Gentle
+- [ ] Real-time/streaming mode
+- [ ] GUI or web interface
+- [ ] More advanced tone/emotion classification
+- [ ] Export to JSON, HTML, or PDF
+- [ ] More LLM prompt templates/examples
 
 ## Files
 - `main.py`: Entry point
